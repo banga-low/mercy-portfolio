@@ -1,5 +1,5 @@
 import ProjectCard from "../components/ProjectCard";
-//import posPadiImg from "../assets/pospadi.png";
+import posPadiImg from "../assets/posPadi.jpeg";
 //import bankDashImg from "../assets/bankdash.png";
 //import freelancerImg from "../assets/freelancer.png";
 //import financialDashImg from "../assets/financialdashboard.png";
@@ -12,7 +12,7 @@ const Projects = () => {
       tech: ["React", "Team Collaboration", "Chakra UI", "Responsive Design"],
       githubUrl: "https://github.com/InternPulse/pos-padi-frontend",
       liveUrl: "https://pospadi.com.ng/",
-      imageUrl: "",
+      imageUrl: posPadiImg,
     },
     {
       title: "Bank Dashboard",
